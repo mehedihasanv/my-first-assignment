@@ -4,11 +4,13 @@
   font-style: normal;
 }
 
-/* nav style */
-head{
-    
+main{
+    margin-right: 150px;
+    margin-left: 150px;
+
 }
 
+/* nav style */
 
 nav{
     display: flex;
@@ -16,6 +18,24 @@ nav{
     text-align: center;
 
 }
+.logo{
+    font-size: 30px;
+    color: #4E47FF;
+    font-weight: 800;
+    margin:45.5px auto auto 150px ;
+}
+.nav-btn{
+font-size: 14.22px;
+font-weight: bold;    
+color: #FFFFFF;
+border: none;
+border-radius: 8.89px;
+margin: 45.5px 150px auto auto;
+padding: 10.83px 32px 10.43px 32px;
+}
+
+/* banner style */
+
 .banner{
     text-align: center
 }
@@ -39,24 +59,82 @@ margin-bottom:100.56px;
      background-image: url('../assets/Hero-bg.png');
      width:100%;
 }
-.logo{
-    font-size: 30px;
-    color: #4E47FF;
-    font-weight: 800;
-    margin:45.5px auto auto 133px ;
-}
-.nav-btn{
+
+/* shared styles */
+
+.blue{
+background-color: #4E47FF;
 font-size: 14.22px;
 font-weight: bold;    
 color: #FFFFFF;
 border: none;
 border-radius: 8.89px;
-margin: 45.5px 133px auto auto;
 padding: 10.83px 32px 10.43px 32px;
+
 }
 
-/* shared styles */
+/* action style */
 
-.blue{
-     background-color: #4E47FF;
+
+.action{
+    display: flex;
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
+.action-container{
+    align-items: center;
+    justify-content: center;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.action-description{
+    font-size: 24px;
+    color:#252432;
+    margin-bottom: 23px;
+
+}
+.action-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+
+/* user colum style */
+
+
+.user-hero{
+    background-color: hsla(242, 100%, 64%,10%);
+    border-radius: 24px;
+    padding: 50px 142px 50px 142px;
+    margin-bottom: 116px;
+}
+
+.user-title{
+    font-size: 34px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.user-subcolum{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-user{
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    color: #4E47FF;
+
+}
+.active-user{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: hsla(0, 0%, 0%,50%);
 }
